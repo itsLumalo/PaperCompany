@@ -5,7 +5,7 @@ body {
 
 .main {
   margin-left: 345px;
-  border: 1px solid #EF9A9A;
+  border: 0px solid #ffffff;
   padding: 0px 0px;
   flex-direction: row;
   align-content: center;
@@ -14,12 +14,42 @@ body {
 
 .card {
   display: inline-block;
-  width: 200px;
+  width: 400px;
   height: 160px;
-  border: 1px solid #EF9A9A;
+  background-color: #404040;
+  border: 1px solid #404040;
   border-radius: 4px;
-  margin: 5px;
+  margin: 0px;
+  margin-top: 5px;
   text-decoration: none;
+}
+
+.toptext {
+  display: inline-block;
+  width: 400px;
+  height: 45px;
+  color: #ffffff;
+  background-color: #ffffff;
+  border: 1px solid #ffffff;
+  border-radius: 4px;
+  margin: 0px;
+  margin-top: 5px;
+  text-decoration: none;
+  text-align: left;
+}
+
+.toptext h1 {
+  font-size: 20px;
+  margin-left: 0px;
+  margin-top: 1px;
+  color: #404040;
+}
+
+.toptext p {
+  font-size: 12px;
+  margin-left: 0px;
+  margin-top: -10px;
+  color: #404040;
 }
 
 .flexcolumn {
