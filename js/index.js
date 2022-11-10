@@ -21,7 +21,7 @@ function getCookie(cname) {
   return "";
 }
 
-function checkUsernameCookie() {
+function checkCookie() {
   let user = getCookie("username");
   if (user != "") {
     alert("Welcome again " + user);
@@ -34,3 +34,5 @@ function checkUsernameCookie() {
     }
   }
 }
+
+
