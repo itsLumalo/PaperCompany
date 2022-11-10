@@ -10,6 +10,8 @@ body {
   flex-direction: column;
   align-content: center;
   text-align: center;
+  width: 450px;
+  
 }
 
 .card {
@@ -20,7 +22,7 @@ body {
   border: 1px solid #404040;
   border-radius: 4px;
   margin: 0px;
-  margin-top: 5px;
+  margin-top: 20px;
   text-decoration: none;
 }
 
@@ -59,7 +61,6 @@ body {
 .leftmain {
   height: 100%;
   width: 325px;
-  padding-top: 0px;
   padding: 0px 10px;
   position: fixed;
   flex-direction: column;
