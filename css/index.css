@@ -9,7 +9,7 @@ body {
 
 .leftmain {
   height: 100%;
-  width: 300px;
+  width: 325px;
   padding-top: 20px;
   position: fixed;
   flex-direction: column;
@@ -27,7 +27,7 @@ body {
   line-height: 25px;
   border-radius: 4px;
   background-color: #333333;
-  width: 300px;
+  width: 325px;
 }
 
 .main {}
