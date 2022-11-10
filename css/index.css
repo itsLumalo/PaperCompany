@@ -6,8 +6,20 @@ body {
 .main {
   margin-left: 345px;
   border: 1px solid #EF9A9A;
-  padding: 0px 10px;
-  height: 100vh;
+  padding: 0px 0px;
+  flex-direction: row;
+  align-content: center;
+  text-align: center;
+}
+
+.card {
+  display: inline-block;
+  width: 200px;
+  height: 160px;
+  border: 1px solid #EF9A9A;
+  border-radius: 4px;
+  margin: 5px;
+  text-decoration: none;
 }
 
 .flexcolumn {
