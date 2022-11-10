@@ -25,7 +25,7 @@ function checkCookie() {
   let user = getCookie("username");
   if (user != "") {
     alert("Welcome again " + user);
-    document.getElementById("nameOfCompany").innerHTML = user + "'s Paper Company";
+    document.getElementById("nameOfCompany").innerHTML = "📄 " + user + "'s Paper Company";
   } else {
     user = prompt("Please enter your name:", "");
     if (user != "" && user != null) {
