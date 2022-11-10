@@ -3,16 +3,41 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.leftmain {}
+.flexcolumn{
+    flex-direction: column;
+}
+
+.leftmain {
+  height: 100%;
+  width: 300px;
+  padding-top: 20px;
+  position: fixed;
+  flex-direction: column;
+  overflow-y: scroll;
+  background-color: #333333;
+}
+
+.leftmain a {
+  float: left;
+  color: #363636;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 25px;
+  border-radius: 4px;
+  background-color: #333333;
+  width: 300px;
+}
 
 .main {}
 
 .header {
   overflow: hidden;
-  background-color: #cfcfcf;
-  padding: 20px 10px;
-  border-bottom: 1px solid #525252;
-  border-radius: 4px;
+  background-color: #404040;
+  padding: 10px 10px;
+  height: 36px;
+  text-align: center;
 }
 
 .header-right {
@@ -21,13 +46,14 @@ body {
 
 .header a {
   float: left;
-  color: #525252;
+  color: #ffffff;
   text-align: center;
-  padding: 12px;
+  padding: 5px 12px;
   text-decoration: none;
   font-size: 18px;
   line-height: 25px;
   border-radius: 4px;
+  align-content: center;
 }
 
 .header a:hover {
