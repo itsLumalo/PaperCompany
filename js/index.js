@@ -30,7 +30,7 @@ function checkCookie() {
     user = prompt("Please enter your name:", "");
     if (user != "" && user != null) {
       setCookie("username", user);
-      document.getElementById("nameOfCompany").innerHTML = user + "'s Paper Company";
+      document.getElementById("nameOfCompany").innerHTML = "📄 " + user + "'s Paper Company";
     }
   }
 }
