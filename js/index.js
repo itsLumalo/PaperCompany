@@ -21,7 +21,7 @@ function getCookie(cname) {
   return "";
 }
 
-function checkUsernameCookie() {
+function checkCookie() {
   let user = getCookie("username");
   if (user != "") {
     alert("Welcome again " + user);
@@ -35,4 +35,10 @@ function checkUsernameCookie() {
   }
 }
 
+function hide(item) {
+  document.getElementById(item).hidden = true
+}
 
+function show(item) {
+  document.getElementById(item).hidden = false
+}
